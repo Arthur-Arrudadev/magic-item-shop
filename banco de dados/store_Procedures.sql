@@ -73,4 +73,17 @@ BEGIN
     GROUP BY tipo;
 END
 
+---- Atualiza a quantidade dos estoques sem duplicar linhas ----
+
+CREATE PROCEDURE AdicionarAoEstoque(
+    IN p_id_produto INT,
+    IN p_quantidade INT
+)
+BEGIN
+    UPDATE Estoque
+    SET quantidade_disponivel = quantidade_disponivel + p_quantidade
+    WHERE id_produto = p_id_produto;
+END
+
+CALL AdicionarAoEstoque(X, Y);
 
