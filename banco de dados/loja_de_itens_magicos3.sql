@@ -34,6 +34,7 @@ CREATE TABLE PedidosClientes (
     id_cliente INT,
     data_pedido DATE NOT NULL,
     id_funcionario INT,
+    valor_total DECIMAL(10,2) NOT NULL DEFAULT 0.00;
     FOREIGN KEY (id_cliente) REFERENCES Clientes(id_cliente),
     FOREIGN KEY (id_funcionario) REFERENCES Funcionarios(id_funcionario)
 );
@@ -54,10 +55,12 @@ CREATE TABLE ItensDePedidos (
 
 CREATE TABLE Estoque (
     id_estoque INT PRIMARY KEY AUTO_INCREMENT,
-    id_produto INT,
+    id_produto INT NOT NULL,
     quantidade_disponivel INT NOT NULL,
-    FOREIGN KEY (id_produto) REFERENCES Produtos(id_produto)
+    FOREIGN KEY (id_produto) REFERENCES Produtos(id_produto),
+    UNIQUE (id_produto)
 );
+
 
 -- Tabela: Funcionarios ---
 
