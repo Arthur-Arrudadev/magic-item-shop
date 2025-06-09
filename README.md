@@ -1,5 +1,12 @@
 # magic-item-shop
 base de dados de uma loja de itens magicos 
-com 10 tabelas 
-criação de base de dados em linguagem python 
+
+10 tabelas incluindo tabelas de relacionamento (relacionamento muitos para muitos)
+4 Stored Procedures
+3 Triggers
+
+grupo : arthur arruda , ana luiza , marielly 
+
+
+
 
