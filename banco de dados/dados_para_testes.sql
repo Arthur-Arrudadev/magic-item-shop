@@ -6,6 +6,7 @@ INSERT INTO Funcionarios (nome, cargo, salario) VALUES
 ('Aurélio Magus', 'Atendente', 3000.00),
 ('Celina Luz', 'Encantadora', 4500.00),
 ('Darlan Poe', 'Gerente de loja', 5500.00),
+('Morgana Stradivarius', 'Encantadora', 5000.00),
 ('Jorgin Marrelo', 'Atendente', 1400.00);
 
 ---- Tabela de Clientes ----
@@ -73,6 +74,7 @@ INSERT INTO Produtos (nome, descricao, preco, id_categoria) VALUES
 ('Elixir do Sopro Vital', 'Revigora a respiração e restaura fôlego em combates longos', 28.00, 1),
 ('Chicote Aéreo', 'Arma feita com fios encantados, usada para manipular vento em combate', 190.00, 5),
 ('Anel do Redemoinho', 'Cria um pequeno ciclone ao redor do usuário por alguns segundos', 145.00, 2),
+('Py K das Galaxias', 'Faz com que qualquer alvo se apaixone pelo usuário por até 24h', 1000.00, 1),
 ('Botas dos Ventos Alísios', 'Concede um bônus de agilidade e permite correr em superfícies instáveis', 110.00, 8);
 
 INSERT INTO Produtos (nome, descricao, preco, id_categoria) VALUES
