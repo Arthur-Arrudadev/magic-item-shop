@@ -75,6 +75,14 @@ INSERT INTO Produtos (nome, descricao, preco, id_categoria) VALUES
 ('Chicote Aéreo', 'Arma feita com fios encantados, usada para manipular vento em combate', 190.00, 5),
 ('Anel do Redemoinho', 'Cria um pequeno ciclone ao redor do usuário por alguns segundos', 145.00, 2),
 ('Py K das Galaxias', 'Faz com que qualquer alvo se apaixone pelo usuário por até 24h', 1000.00, 1),
+('Poção do Tô com Sorte', 'Garante sucesso aleatório em qualquer coisa (menos no amor)', 900.00,1),
+('Espelho do Arrependimento Eterno', 'Mostra todas as decisões ruins que você já tomou. Spoiler: são muitas.', 999.99,5),
+('Maldição do Anel Vai Com Deus', 'Teletransporta você pra qualquer lugar... menos onde você realmente queria ir', 890.00,7),
+('Manual do Programador Antissocial', 'Contém códigos tão antigos que só um mago entenderia', 50.00,6),
+('Chapéu do Hacker Invisível', 'Te deixa com +100 em sigilo digital por 3 horas. Só não funciona na deep web', 990.00,5),
+('Spray Anti-Ex', 'Faz com que seu ex não te veja nem no Instagram por 48h', 100.00,1),
+('Camisa do “Hoje Não”', 'Quando vestida, faz todos evitarem te chamar pra algo. Ótima pra segundas-feiras', 620.00,5),
+('Caneca da Energia Infinita', 'Todo café servido nela dobra sua produtividade em até 5h seguidas', 560.00,2),
 ('Botas dos Ventos Alísios', 'Concede um bônus de agilidade e permite correr em superfícies instáveis', 110.00, 8);
 
 INSERT INTO Produtos (nome, descricao, preco, id_categoria) VALUES
