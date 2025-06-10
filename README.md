@@ -8,7 +8,7 @@ Base de dados de uma loja de itens magicos
 
 3 Triggers
 
-grupo : arthur arruda , ana luiza , marielly 
+grupo : arthur arruda , ana luiza , Meryellen 
 
 
 
